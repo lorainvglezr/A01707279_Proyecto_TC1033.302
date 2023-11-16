@@ -21,3 +21,6 @@ El programa corre con el IDE llamado *"CLion"*, que se recomienda en el uso de *
 **En este programa se realizaron las siguientes correcciones (por ahora):**
 1. Se arregló el tipo de variable de la llamada "precio" en la sección de los *Set variables*, para que en todos los lugares donde se mencionara, hubiera concordancia de tipos de variables.
 2. Se omitió el uso de "using namespace std;", en cambión se utilizó el prefijo "std::" antes de cada "cout", "cin", "string" y "endl".
+
+## Diagrama UML
+**Consulte el diagrama UML:** https://lucid.app/lucidchart/5e2546a3-cddd-4684-81b3-0e7cff6e1229/edit?viewport_loc=-236%2C65%2C2344%2C1265%2CHWEp-vi-RSFO&invitationId=inv_c3f04489-8ff2-4b03-ad20-de39db038254
