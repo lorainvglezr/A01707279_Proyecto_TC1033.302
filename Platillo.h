@@ -1,6 +1,6 @@
 // Nombre: Lorain Valeria González Rivas
 // Matrícula: A01707279
-// Fecha: Miércoles, 8 de noviembre de 2023
+// Fecha: Miércoles, 15 de noviembre de 2023
 // Materia: Pensamiento Computacional Orientado a Objetos
 
 /**
