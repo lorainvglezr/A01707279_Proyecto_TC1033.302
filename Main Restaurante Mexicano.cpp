@@ -39,7 +39,7 @@ int main(){
     std::cout << std::endl;
 
     //Uso de la clase Cliente, en donde se establecen los valores de la variables
-    // y se hace uso de las funciones de los documentos .h
+    // y se hace uso de las funciones de los documentos .h (Personas y Cliente)
     Cliente cliente_1("Leisa", 20, "Mujer",40357.86);
     std::cout << "El nombre del cliente es: ";
     std::cout << cliente_1.get_nombre() << std::endl;
@@ -52,8 +52,8 @@ int main(){
 
     std::cout << std::endl;
 
-    // Uso de la clase Platillo, en donde se establecen los valores de la variables
-    // y se hace uso de las funciones del documento .h
+    // Uso de la clase Mesero, en donde se establecen los valores de la variables
+    // y se hace uso de las funciones de los documentos .h (Personas y Mesero)
     Mesero mesero_1("Lorenzo", 27, "Hombre", 15.6, 43050.85);
     std::cout << "El nombre del mesero es: ";
     std::cout << mesero_1.get_nombre() << std::endl;
