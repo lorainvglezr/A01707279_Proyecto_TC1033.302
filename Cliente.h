@@ -6,7 +6,8 @@
 /**
  * Clase Cliente, en esta clase se establecen las variables que son características sólo
  * del cliente que está en el restaurante, maneja los datos personales financieros de
- * la persona que entra al restaurante.
+ * la persona que entra al restaurante, esas variables son las únicas agregadas a esta clase hija,
+ * porque se toman las variables preestablecidas de la clase padre (Personas).
  */
 
 #include <string>
@@ -19,7 +20,7 @@ private:
     float disp_dinero;
 
 public:
-    //Constuctor, en donde se manda a llamar a la clase base
+    //Constuctor, en donde se manda a llamar a la clase base (Personas)
     Cliente(): Personas(), disp_dinero(0){};
     Cliente(std::string nom, int ed, std::string gen, float dis_din): Personas(nom, ed, gen), disp_dinero(dis_din){};
 
