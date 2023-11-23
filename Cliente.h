@@ -1,15 +1,15 @@
 // Nombre: Lorain Valeria González Rivas
 // Matrícula: A01707279
-// Fecha: Miércoles, 15 de noviembre de 2023
+// Fecha: Miércoles, 22 de noviembre de 2023
 // Materia: Pensamiento Computacional Orientado a Objetos
 
 /**
  * Clase Cliente, en esta clase se establecen las variables que son características sólo
  * del cliente que está en el restaurante, maneja los datos personales financieros de
- * la persona que entra al restaurante, esas variables son las únicas agregadas a esta clase hija,
- * porque se toman las variables preestablecidas de la clase padre (Personas).
+ * la persona que entra al restaurante.
  */
 
+#pragma once
 #include <string>
 #include "Personas.h"
 
@@ -20,7 +20,7 @@ private:
     float disp_dinero;
 
 public:
-    //Constuctor, en donde se manda a llamar a la clase base (Personas)
+    //Constuctor, en donde se manda a llamar a la clase base
     Cliente(): Personas(), disp_dinero(0){};
     Cliente(std::string nom, int ed, std::string gen, float dis_din): Personas(nom, ed, gen), disp_dinero(dis_din){};
 
