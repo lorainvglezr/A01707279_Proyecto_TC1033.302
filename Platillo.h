@@ -1,6 +1,6 @@
 // Nombre: Lorain Valeria González Rivas
 // Matrícula: A01707279
-// Fecha: Miércoles, 15 de noviembre de 2023
+// Fecha: Miércoles, 22 de noviembre de 2023
 // Materia: Pensamiento Computacional Orientado a Objetos
 
 /**
@@ -8,6 +8,7 @@
  * platillo que se le asignó predeterminadamente al usuario.
  */
 
+#pragma once
 #include <string>
 
 class Platillo{
@@ -30,7 +31,7 @@ public:
 
     // get variables
     float get_precio();
-    std::string get_nombre_plato();
+    std::string get_nombre_plato() const;
     int get_ingredientes();
     int get_cupo_clase();
     float get_calorias();
@@ -46,7 +47,7 @@ public:
 float Platillo::get_precio(){
     return precio;
 }
-std::string Platillo::get_nombre_plato(){
+std::string Platillo::get_nombre_plato() const {
     return nombre_plato;
 }
 int Platillo::get_ingredientes(){
