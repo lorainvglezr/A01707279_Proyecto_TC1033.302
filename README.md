@@ -14,6 +14,7 @@ Primeramente, el programa realiza una pequeña encuesta al usuario, acerca de su
 1. Enchiladas
 2. Chilaquiles
 3. Pozole
+
 Una vez realizada la elección, se puede acceder a más información acerca de cada tipo de platillos. Si el usuario escoge la opción de "Salir", se despliegarán los datos del clientes, previamente establecidos por él, y los datos predeterminados del mesero y el cocinero.
 
 ## Consideraciones
@@ -27,6 +28,7 @@ El programa corre con el IDE llamado *"CLion"* y el IDE llamado *"XCode"*, que s
 **En este programa se realizaron las siguientes correcciones (por ahora):**
 1. Se arregló el tipo de variable de la llamada "precio" en la sección de los *Set variables*, para que en todos los lugares donde se mencionara, hubiera concordancia de tipos de variables.
 2. Se omitió el uso de "using namespace std;", en cambión se utilizó el prefijo "std::" antes de cada "cout", "cin", "string" y "endl".
+
 - *Versión 1.0:* 08 de noviembre de 2023. Subcompetencias: En este avance se implementó el repositorio en Github, se crearon sólo los archivos necesarios, se construyeron métodos y atributos (clase "Platillo" de 75 líneas, clase "Cliente" de 67 líneas, clase "Mesero" de 77 líneas). Se comprueban los métodos y atributos desde el main que contiene 71 líneas.
 - *Versión 2.0:* 16 de noviembre 2023. En esta versión se creó un archivo .h en donde se guardó la clase "Personas", dicho archivo es la clase padre de las clases "Cliente" y "Mesero", dado que se hace uso de la herencia para otorgar características en común a las clases hijas. La clase padre es ahora "Personas", de la cual se heredan los atributos de nombre, edad y género. Subcompetencias: se creó un UML y se agregó al repositorio en formato .png. Al implementar herencia, se pudo trabajar desde tres distintos archivos pero se simplificó el trabajo en dos de las tres clases, llamense las clases hijas. Se creó la clase padre "Personas" de 60 líneas y se siguieron trabajando con las demás clases de la misma forma. Se comprueban los métodos y atributos desde el main que contiene 71 líneas.
 - *Versión 3.0:* 23 de noviembre de 2023. En esta versión se mantuvieron los archivos "Personas.h", "Cliente.h", "Mesero.h", "Platillo.h" y "main.cpp"; sin embargo, se agregó una nueva clase en un archivo .h llamada "Factura.h", en donde el principal objetivo era generar un resumen del cliente y el platillo predeterminado que había hasta el momento. Esta clase tenía 46 líneas. Subcompetencias: Se utiliza agregación, se actualiza el archivo del UML, se crea el archivo .h necesario (Factura.h) para implementar la agregación al código.
