@@ -33,19 +33,16 @@ int main(){
     std::cout << "------------ LA CASONA DE LA ABUELA ------------" << std::endl;
     std::cout << std::endl;
 
-    //
+    // Se llama a la clase "Cliente" y se crea un atributo de tipo "Cliente"
     Cliente cliente;
-    Cliente platillo1;
-    Cliente platillo2;
-    Cliente platillo3;
-    
-    // Variables de clase Cliente
+        
+    // Atributos de clase "Cliente"
     std::string nombre;
     int edad;
     std::string genero;
     float disp_dinero;
     
-    // Variables del main
+    // Atributos del main
     std::string opcion;
     bool continua = true;
     
@@ -67,7 +64,7 @@ int main(){
      * de las variables y se hace uso de las funciones del documento llamado
      * "Personas.h" que se establecieron para la clase "Mesero"
      */
-    Mesero mesero("Lorenzo", 27, "Hombre", 15.6, 43050.85);
+    Mesero mesero("Lorenzo", 27, "Hombre", 43050.85, 15.6);
     
     /** Uso de la clase "ChefComida", en donde se establecen valores predeterminados
      * de las variables y se hace uso de las funciones del documento llamado
@@ -85,7 +82,7 @@ int main(){
         // Impresión de instrucciones y menú
         menu();
         std::cout << "Si no desea continuar, escoja la opcion '4. Salir'" << std::endl;
-        std::cout << "De lo contrario, elija una opcion del menu: " << std::endl;
+        std::cout << "De lo contrario, elija una opcion del menu: ";
         std::cin >> opcion;
         std::cout << std::endl;
         
@@ -130,8 +127,8 @@ int main(){
     std::cout << "Nombre: " << mesero.get_nombre() << std::endl;
     std::cout << "Edad: " << mesero.get_edad() << std::endl;
     std::cout << "Genero: " << mesero.get_genero() << std::endl;
-    std::cout << "Propina: " << mesero.get_propinas() << " pesos mexicanos" << std::endl;
     std::cout << "Salario anual: " << mesero.get_salario() << " pesos mexicanos" << std::endl;
+    std::cout << "Propinas: " << mesero.get_propinas() << " pesos mexicanos" << std::endl;
     std::cout<< std::endl;
     // Se usan los getters de la clase "ChefComida", para imprimir los datos de la persona en la consola
     std::cout << "ACERCA DEL CHEF DE COMIDA..." << std::endl;
